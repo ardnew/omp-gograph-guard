@@ -1,0 +1,21 @@
+{
+  "name": "omp-gograph-guard",
+  "version": "1.0.0",
+  "description": "OMP plugin for Go code searches with gograph",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "omp": {
+    "extensions": [
+      "./index.js"
+    ]
+  }
+}
